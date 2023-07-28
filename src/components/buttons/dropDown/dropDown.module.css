@@ -1,0 +1,37 @@
+.dropDownTrigger{
+  background-color: transparent;
+}
+
+.iconButton{
+  display: flex;
+  justify-items: center;
+
+  height: 25px;
+  width: 25px;
+}
+
+
+.dropDownContent{
+  margin-right: 35px;
+  margin-top: 10px;
+  padding: 5px;
+
+  border: 2px solid #bdffcc;
+
+  background-color: #42285f;
+}
+
+.dropDownContent div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin: 5px;
+}
+
+.dropDownContent div:hover{
+  background-color: #42276f;
+  padding: 2px;
+  border-radius: 5px;
+}
+
