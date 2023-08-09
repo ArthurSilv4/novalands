@@ -11,7 +11,7 @@ import { DropDownPageLinks } from 'components/buttons/dropDown/dropPageLinks/dro
 export function Header() {
   return (
     <header>
-      <div className={styles.container}>
+      <div className="container">
         <NavigationMenu.Root className={styles.navigationRoot}>
           <Logo />
           <PageLinks navigationList={styles.navigationList} />
