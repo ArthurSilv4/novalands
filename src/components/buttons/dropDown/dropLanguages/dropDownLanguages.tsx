@@ -1,9 +1,9 @@
 'use client'
 
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
-import { GlobeIcon } from '@radix-ui/react-icons'
+import { GlobeIcon, Cross2Icon } from '@radix-ui/react-icons'
 import Image from 'next/image'
-import styles from './dropDown.module.css'
+import styles from './dropDownLanguages.module.css'
 import { useEffect, useState } from 'react'
 import { i18n } from 'translate/i18n'
 
@@ -38,13 +38,21 @@ export const DropDown = () => {
 
       <DropdownMenu.Portal>
         <DropdownMenu.Content className={styles.dropDownContent}>
-          <DropdownMenu.Label>{i18n.t('titles.sla')}</DropdownMenu.Label>
+          <DropdownMenu.Label className={styles.dropDownLabel}>
+            {i18n.t('titles.language')}
+          </DropdownMenu.Label>
           <DropdownMenu.RadioGroup
             value={language}
             onValueChange={handleLanguageChange}
+            className={styles.dropDownRadioGroup}
           >
-            <DropdownMenu.RadioItem value="pt-BR">
-              <DropdownMenu.ItemIndicator>x</DropdownMenu.ItemIndicator>
+            <DropdownMenu.RadioItem
+              value="pt-BR"
+              className={styles.dropDownRadioItem}
+            >
+              <DropdownMenu.ItemIndicator className={styles.dropDownIndicator}>
+                <Cross2Icon />
+              </DropdownMenu.ItemIndicator>
               Português
               <span>
                 <Image
@@ -56,7 +64,9 @@ export const DropDown = () => {
               </span>
             </DropdownMenu.RadioItem>
             <DropdownMenu.RadioItem value="en-USA">
-              <DropdownMenu.ItemIndicator>x</DropdownMenu.ItemIndicator>
+              <DropdownMenu.ItemIndicator className={styles.dropDownIndicator}>
+                <Cross2Icon />
+              </DropdownMenu.ItemIndicator>
               Inglês
               <span>
                 <Image

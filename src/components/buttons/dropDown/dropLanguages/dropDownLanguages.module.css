@@ -1,8 +1,9 @@
-.dropDownTrigger{
+.dropDownTrigger {
   background-color: transparent;
+  cursor: pointer;
 }
 
-.iconButton{
+.iconButton {
   display: flex;
   justify-items: center;
 
@@ -10,8 +11,7 @@
   width: 25px;
 }
 
-
-.dropDownContent{
+.dropDownContent {
   margin-right: 35px;
   margin-top: 10px;
   padding: 5px;
@@ -21,7 +21,7 @@
   background-color: #42285f;
 }
 
-.dropDownContent div{
+.dropDownContent div {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,9 +29,22 @@
   margin: 5px;
 }
 
-.dropDownContent div:hover{
+.dropDownLabel {
+  font-weight: bold;
+}
+
+.dropDownRadioGroup div {
+  cursor: pointer;
+}
+
+.dropDownRadioGroup div:hover {
   background-color: #42276f;
   padding: 2px;
   border-radius: 5px;
 }
 
+.iconButton:hover {
+  background-color: #42276f;
+  padding: 2px;
+  border-radius: 5px;
+}

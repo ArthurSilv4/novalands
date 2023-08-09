@@ -2,15 +2,20 @@ const messages = {
   pt: {
     translations: {
       titles: {
-        app: 'em br',
-        sla: 'ta em ingles',
+        home: 'INICIO',
+        game_info: 'INFO JOGO',
+        news: 'NOVIDADES',
+        support: 'SUPORTE',
+        socials: 'SOCIAIS',
+        community: 'COMUNIDADE',
+
+        language: 'IDIOMA',
       },
       messages: {
-        itWorks: 'App br',
-        smallText: 'um pequeno texto',
+        descricao: 'Nova Lands Landing Page do jogo',
       },
       button: {
-        save: 'Salvar',
+        download: 'Baixar',
       },
     },
   },

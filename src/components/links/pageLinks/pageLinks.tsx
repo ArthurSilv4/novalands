@@ -1,28 +1,44 @@
 'use client'
 
 import * as NavigationMenu from '@radix-ui/react-navigation-menu'
-import styles from './pageLinks.module.css'
+import { i18n } from 'translate/i18n'
 
-export const PageLinks = () => {
+interface PageLinksProps {
+  navigationList: string
+}
+
+export const PageLinks = ({ navigationList }: PageLinksProps) => {
   return (
-    <NavigationMenu.List className={styles.navigationList}>
+    <NavigationMenu.List className={navigationList}>
       <NavigationMenu.Item>
-        <NavigationMenu.Link href="/">HOME</NavigationMenu.Link>
+        <NavigationMenu.Link href="/">
+          {i18n.t('titles.home')}
+        </NavigationMenu.Link>
       </NavigationMenu.Item>
       <NavigationMenu.Item>
-        <NavigationMenu.Link href="/">GAME INFO</NavigationMenu.Link>
+        <NavigationMenu.Link href="/">
+          {i18n.t('titles.game_info')}
+        </NavigationMenu.Link>
       </NavigationMenu.Item>
       <NavigationMenu.Item>
-        <NavigationMenu.Link href="/">NEWS</NavigationMenu.Link>
+        <NavigationMenu.Link href="/">
+          {i18n.t('titles.news')}
+        </NavigationMenu.Link>
       </NavigationMenu.Item>
       <NavigationMenu.Item>
-        <NavigationMenu.Link href="/">SUPPORT</NavigationMenu.Link>
+        <NavigationMenu.Link href="/">
+          {i18n.t('titles.support')}
+        </NavigationMenu.Link>
       </NavigationMenu.Item>
       <NavigationMenu.Item>
-        <NavigationMenu.Link href="/">SOCIALS</NavigationMenu.Link>
+        <NavigationMenu.Link href="/">
+          {i18n.t('titles.socials')}
+        </NavigationMenu.Link>
       </NavigationMenu.Item>
       <NavigationMenu.Item>
-        <NavigationMenu.Link href="/">COMMUNITY</NavigationMenu.Link>
+        <NavigationMenu.Link href="/">
+          {i18n.t('titles.community')}
+        </NavigationMenu.Link>
       </NavigationMenu.Item>
     </NavigationMenu.List>
   )
