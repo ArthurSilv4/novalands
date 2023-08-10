@@ -1,0 +1,58 @@
+.box {
+  margin-top: 20px;
+  margin-block-end: 40px;
+}
+
+.box p {
+  margin-block-end: 20px;
+}
+
+.box button {
+  padding: 10px;
+  background-color: #42276f;
+  border-radius: 5px;
+}
+
+.formField div {
+  display: flex;
+  align-items: initial;
+  justify-content: space-between;
+
+  width: 350px;
+}
+
+.formField input {
+  margin-top: 10px;
+  margin-block-end: 10px;
+  padding: 4px;
+  height: 30px;
+  width: 350px;
+  border-radius: 5px;
+
+  color: black;
+}
+
+.box button:hover {
+  background-color: #42277f;
+}
+
+@media (max-width: 550px) {
+  .formRoot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box p {
+    text-align: center;
+  }
+
+  .formField div {
+    width: 250px;
+  }
+
+  .formField input {
+    width: 250px;
+
+  }
+}

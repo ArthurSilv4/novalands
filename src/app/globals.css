@@ -13,8 +13,6 @@
 header,
 footer {
   background-color: #42285f;
-
-
 }
 
 body {
@@ -25,7 +23,12 @@ a {
   font-weight: bold;
 }
 
-.container{
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
   max-width: 1200px;
   margin: auto;
 }

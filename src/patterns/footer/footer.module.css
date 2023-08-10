@@ -1,0 +1,65 @@
+.navigationRoot {
+  padding-block-end: 15px;
+  margin: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigationList {
+  display: flex;
+  gap: 30px;
+}
+
+.navigationListSocialMedia {
+  display: flex;
+  gap: 30px;
+
+}
+
+.iconSocialMedia {
+  height: 30px;
+  width: 30px;
+}
+
+.inputAndButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  height: 1px;
+  background-color: white;
+}
+
+@media (max-width: 850px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .navigationList {
+    display: inline;
+  }
+
+  .navigationList li {
+    margin-top: 20px;
+    font-size: large;
+    text-align: center;
+  }
+
+  .inputAndButton {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-block-end: 20px;
+  }
+}

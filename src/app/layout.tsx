@@ -1,7 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Titillium_Web } from 'next/font/google'
-import { Header } from 'patterns/header/header'
+import { Footer } from '../patterns/footer/footer'
+import { Header } from '../patterns/header/header'
 
 const inter = Titillium_Web({
   subsets: ['latin'],
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
