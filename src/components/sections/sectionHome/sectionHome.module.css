@@ -1,0 +1,25 @@
+.section {
+  height: 90vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url('/headerGame.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+
+}
+
+@media (max-width: 850px) {
+  .section{
+    background-image: url('/headerGame mobile.png');
+  }
+}
+
+@media (max-width: 550px) {
+  .section{
+    background-position: center;
+  }
+}

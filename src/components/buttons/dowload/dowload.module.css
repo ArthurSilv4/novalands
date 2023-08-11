@@ -1,0 +1,22 @@
+.button{
+  background-color: #42276f;
+  opacity: 0.8;
+  border-radius: 5px;
+
+  border: solid 1px #bdffcc;
+
+  font-size: x-large;
+  font-weight: bold;
+
+  padding: 4px;
+
+  height: 70px;
+  width: 150px;
+}
+
+.button:hover{
+  background-color: #42277f;
+  opacity: 1;
+
+  border: solid 2px #bdffcc;
+}
