@@ -1,0 +1,67 @@
+.section {
+  color: black;
+
+  text-align: center;
+
+  margin-top: 100px;
+
+
+}
+
+.section div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 60px;
+}
+
+.section button{
+  margin-top: 30px;
+}
+
+.section h1{
+  color: #42285f;
+  font-weight: bold;
+  font-size: xx-large;
+
+  margin-block-end: 15px;
+}
+
+.section h2{
+  color: #42285f;
+  font-weight: bold;
+  font-size: x-large;
+
+  margin-block-end: 10px;
+}
+
+.section p{
+  color: #42285f;
+  font-weight: bold;
+}
+
+.section br{
+  margin-top: 1000px;
+}
+
+.section iframe{
+  margin-top: 30px;
+}
+
+.section img{
+  margin-top: 30px;
+}
+
+
+@media (max-width: 550px) {
+  .section iframe{
+    width: 250px;
+    height: 200px;
+  }
+
+  .section img{
+    width: 250px;
+    height: 150px;
+  }
+}
