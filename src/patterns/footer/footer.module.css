@@ -1,6 +1,7 @@
 .navigationRoot {
   padding-block-end: 15px;
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .links {
@@ -17,7 +18,6 @@
 .navigationListSocialMedia {
   display: flex;
   gap: 30px;
-
 }
 
 .iconSocialMedia {
@@ -40,6 +40,12 @@
   background-color: #42276f;
   padding: 4px;
   border-radius: 5px;
+}
+
+.navigationListSocialMedia :hover{
+  border-radius: 5px;
+  background-color: #42276f;
+  padding: 1px;
 }
 
 @media (max-width: 850px) {

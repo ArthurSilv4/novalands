@@ -12,9 +12,7 @@ export const Credits = () => {
       </span>
       <span>
         {i18n.t('messages.created')}{' '}
-        <Link href="https://www.linkedin.com/in/arthur-souza-dev/">
-          Arthur Souza
-        </Link>
+        <Link href="https://github.com/ArthurSilv4">Arthur Souza</Link>
       </span>
     </div>
   )

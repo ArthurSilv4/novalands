@@ -3,7 +3,7 @@ import styles from './sectionHome.module.css'
 
 export function SectionHome() {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="home">
       <Dowload />
     </section>
   )

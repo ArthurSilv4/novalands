@@ -1,0 +1,63 @@
+.navigationRoot{
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 100px;
+  margin-block-end: 100px;
+
+}
+
+.navigationRoot div{
+  background-color: #42285f;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.navigationRoot span{
+  font-size: x-large;
+  font-weight: bold;;;
+
+  display: flex;
+  justify-content: center;
+}
+
+.navigationRoot a{
+  font-size: x-large;
+  font-weight: bold;
+  text-decoration:underline;
+
+  display: flex;
+  justify-content: center;
+
+  opacity: 0.9;
+}
+
+.navigationListSocialMedia{
+  display: flex;
+  gap: 20px;
+
+}
+
+.iconSocialMedia{
+  height: 50px;
+  width: 50px;
+
+
+}
+
+.navigationListSocialMedia :hover{
+  border-radius: 5px;
+  background-color: #42276f;
+  padding: 1px;
+}
+
+.navigationRoot a:hover{
+  opacity: 1;
+}

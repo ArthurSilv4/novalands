@@ -7,7 +7,7 @@ import { i18n } from 'translate/i18n'
 
 export function SectionGameInfo() {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="gameInfo">
       <div className="container">
         <div>
           <h1>{i18n.t('titles.title1')}</h1>

@@ -1,0 +1,20 @@
+.section div{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-block-end: 100px;
+}
+
+@media (max-width: 850px) {
+  .section img{
+    height: 120px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  .section img{
+    height: 70px;
+    width: 250px;
+  }
+}

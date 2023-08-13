@@ -13,12 +13,12 @@ export const SocialMedia = ({
   return (
     <NavigationMenu.List className={navigationListSocialMedia}>
       <NavigationMenu.Item>
-        <NavigationMenu.Link href="https://behemutt.com">
+        <NavigationMenu.Link href="https://twitter.com/behemutt">
           <TwitterLogoIcon className={icon} />
         </NavigationMenu.Link>
       </NavigationMenu.Item>
       <NavigationMenu.Item>
-        <NavigationMenu.Link href="https://behemutt.com">
+        <NavigationMenu.Link href="https://www.facebook.com/behemutt?fref=ts">
           <PersonIcon className={icon} />
         </NavigationMenu.Link>
       </NavigationMenu.Item>
