@@ -1,5 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
+// eslint-disable-next-line camelcase
 import { Titillium_Web } from 'next/font/google'
 import { Footer } from '../patterns/footer/footer'
 import { Header } from '../patterns/header/header'
