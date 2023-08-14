@@ -1,3 +1,4 @@
+import { Alert } from 'components/Alert/Alert'
 import { SectionCommunity } from 'components/sections/sectionCommunity/sectionCommunity'
 import { SectionGameInfo } from 'components/sections/sectionGameInfo/sectionGameInfo'
 import { SectionHome } from 'components/sections/sectionHome/sectionHome'
@@ -7,6 +8,7 @@ import { SectionSocials } from 'components/sections/sectionSocials/sectionSocial
 export default function Home() {
   return (
     <main>
+      <Alert />
       <SectionHome />
       <SectionGameInfo />
       <SectionNews />
