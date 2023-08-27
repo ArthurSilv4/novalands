@@ -23,6 +23,10 @@ export default function Home() {
       <SectionNews />
       <SectionSocials />
       <SectionCommunity />
+
+
+
+
     </main>
   )
 }
